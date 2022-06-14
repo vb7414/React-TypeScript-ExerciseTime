@@ -4,7 +4,7 @@ import { TodosContext } from "../store/todo-context";
 
 import classes from "./NewTodo.module.css";
 
-const NewTodo: React.FC = () => {
+const NewTodo = () => {
     const todosCtx = useContext(TodosContext);
 
     const todoTextInputRef = useRef<HTMLInputElement>(null);
